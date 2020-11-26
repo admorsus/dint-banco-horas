@@ -93,7 +93,15 @@ function tamaño_img() {
 function backup_chat() {
 	return true;
 }
-
+/*
+*	Función que recupera la contraseña
+*	E:
+*	S: booleano: guardado correctamente
+*	SQL:
+*/
+function recuperar_pass(){
+	return true;
+}
 
 
 

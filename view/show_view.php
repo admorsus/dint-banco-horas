@@ -70,11 +70,25 @@ function show_loging()
 					<input id="numero" type="email" name="numero" placeholder="Introduce tu email" required="" ><br><br>
    
 					<input id="pass" type="password" name="pass_user" placeholder="password" required="" ><br><br>
-					<a href="">Recuperar contraseña </a><br><br>
+					<a href="index.php?cmd=recuperar" class="btn">Recuperar contraseña </a><br><br>
 					<button type="submit" name="login">Login</button><br><br>
 
 			</form>
 		</section>';
+}
+function show_recuperarPass(){
+	echo '
+	<section id="slider">
+		<form acton"index.php" method="post" role="form">
+			<h2>>LOG IN</h2>
+			<input id="numero"	type"email"	 name="numero" placeholder"Introduce la direccion del correo"><br><br>
+			<button type="submit" name="recuperar">Recuperar</button><br><br>
+		
+		</form>
+	
+	
+	</section>
+	';
 }
 
 /*

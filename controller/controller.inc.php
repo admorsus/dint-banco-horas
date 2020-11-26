@@ -39,6 +39,9 @@ function show_content()
 				case 'contacto':
 					contacto();
 					break;
+				case 'recuperar':
+					show_recuperarPass();
+					break;
 				case 'difusion':
 					difusion();
 					break;	
@@ -56,7 +59,17 @@ function show_content()
 			} else {
 				show_loging();
 			}
-		} elseif (isset($_POST['contestar'])) {						//contestar ok
+		}
+		elseif (isset($_POST['recuperar'])) {
+
+			if (recuperar_pass()){
+				show_msg("Mensaje enviado con la nueva contraseña");
+				show_loging();
+			} else {
+				show_msg("No se pudo recuperar");
+			}
+		}
+		 elseif (isset($_POST['contestar'])) {						//contestar ok
 
 			if (tamaño_img()) {
 
