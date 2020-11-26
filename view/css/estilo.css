@@ -533,12 +533,31 @@ button {
 	font-weight: bold;
 }
 
+.horas {
+	background-color: #006699;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+	padding: 13px 20px 13px 20px;
+	border: 0px solid #ccc;
+	border-radius: 5px;
+	color: white;
+	margin-left: 10px;
+	margin-right: 1px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 .mensajeU {
 	margin-left: 20px;
 	text-align: center;
 }
 
 .mensajeU div {
+	border-bottom: 1px solid #7fe0a9;
+}
+
+.experiencia {
 	border-bottom: 1px solid #7fe0a9;
 }
 

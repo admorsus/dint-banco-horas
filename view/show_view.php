@@ -35,6 +35,7 @@ function show_menu()
 				<li><a href="index.php?cmd=perfil" class="btn">Perfil</a></li>
 				<li><a href="index.php?cmd=ajustes" class="btn"><img src="view/images/ajustes.png" width=30 height=30 /></a></li>
 				<li><a href="index.php?cmd=logout" class="btn">Logout</a></li>
+				<li><div class="horas">32 h</div><li>
 			  </ul>
 			</nav>
 		   </header>';
@@ -234,8 +235,28 @@ function mostrar_usuario(){
 
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
 			<h3>Fulanito<h3>
-			<i class="texto-estado">Trabajando</i>
+			<i class="texto-estado"></i>
 	
+
+			<section class="experiencia">
+			<h3>Carpintero</h3>
+			<form id="vb" action="index.php" method="post" role="form">
+			<textarea id="ta" placeholder="Enviar mensaje de difusion" rows="5" cols="40" required="" ></textarea><br><br>
+			<span>
+			  Elegir archivo<input type="file" name="b1" multiple>
+			</span>
+
+			<span>
+				<input id="date" type="date">
+			<span><br>
+   
+			<button type="submit" name="contestar" >Enviar</button>
+			<button type="submit" name="contratar" >Contratar</button><br><br>
+		</form>
+			<div><div>
+		  	</section>
+
+
 			<br>
 			<br><br>';
 	if ($_SESSION['admin']) {
