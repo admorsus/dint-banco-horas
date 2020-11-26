@@ -10,7 +10,7 @@ function show_header(){
 	echo '<!DOCTYPE html>
 			<html>
 			<head>
-				<title>CHATING</title>
+				<title>Banco horas</title>
 
 				<link rel="icon" href="view/images/bd.jpg">
 				<link rel="stylesheet" type="text/css" href="view/css/estilo.css">

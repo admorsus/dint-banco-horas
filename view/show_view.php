@@ -43,7 +43,7 @@ function show_menu()
 
 		echo '<header>
 			<br>
-			<h1>CHATING</h1>
+			<h1>BANCO DE HORAS</h1>
 			
 			</header>';
 	}
@@ -67,10 +67,10 @@ function show_loging()
 
 					<h2>LOG IN</h2>
 
-					<input id="numero" type="text" name="numero" placeholder="número de telefono" required="" ><br><br>
+					<input id="numero" type="email" name="numero" placeholder="Introduce tu email" required="" ><br><br>
    
 					<input id="pass" type="password" name="pass_user" placeholder="password" required="" ><br><br>
-	   
+					<a href="">Recuperar contraseña </a><br><br>
 					<button type="submit" name="login">Login</button><br><br>
 
 			</form>
